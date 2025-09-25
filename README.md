@@ -1,4 +1,4 @@
-# Terraform Docker Demo - Task 3
+# Terraform Docker Demo
 
 ## Objective
 Provision a **local Docker container** using **Terraform** (Infrastructure as Code - IaC).  

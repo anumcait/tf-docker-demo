@@ -1,4 +1,4 @@
-# Terraform Docker Demo
+# IaC Terraform with Docker
 
 ## Objective
 Provision a **local Docker container** using **Terraform** (Infrastructure as Code - IaC).  
@@ -94,6 +94,8 @@ abcd1234       nginx:latest   "/docker-entrypoint.…"   0.0.0.0:8082->80/tcp   
 - Open browser: http://localhost:8082
  → Nginx welcome page.
 
+![alt text](image.png)  
+
 ### 6️⃣ Inspect Terraform State
 
 ```
@@ -111,6 +113,11 @@ Cleans up container and image.
 
 Always use destroy when done to avoid unused Docker resources.
 
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+
 ### Notes for Windows Users
 
 - Docker provider host must be set to:
@@ -121,8 +128,8 @@ host = "npipe:////./pipe/docker_engine"
 - Avoid using Git Bash for running Terraform with Docker Desktop on Windows. Use PowerShell or CMD.
 - Default Nginx container port is 80. Map external to a free host port (e.g., 8082).
 
-Screenshots:
-![alt text](image.png)  
+
+
 
 ### Interview Tips / Key Concepts Learned
 

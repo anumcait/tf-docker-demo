@@ -1,0 +1,5 @@
+docker_host     = "unix:///var/run/docker.sock"
+container_name  = "tf-nginx"
+image           = "nginx:latest"
+external_port   = 8082
+env_vars        = ["ADMIN_PASSWORD=CHANGE_ME"]

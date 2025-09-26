@@ -26,12 +26,15 @@ terraform -version
 PowerShell or CMD (avoid Git Bash for Docker on Windows).
 
 ### Folder Structure
+
+```
 tf-docker-demo/
 ├── main.tf                 # Terraform configuration
 ├── variables.tf            # Variable definitions
 ├── terraform.tfvars.example # Example values for variables
 ├── .gitignore              # Ignore sensitive and state files
 └── README.md               # This documentationFolder Structure
+```
 
 ## Step-by-Step Instructions
 
